@@ -1,0 +1,35 @@
+# --- Python build/runtime ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# --- Virtual envs / Conda ---
+.env/
+.venv/
+venv/
+condaenv.*
+*.conda-env.*
+*.yaml.lock
+
+# --- PyInstaller output ---
+build/
+dist/
+*.spec
+
+# --- OS clutter ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editors ---
+.vscode/
+.idea/
+
+# --- App binaries & large vendor blobs (don’t commit) ---
+# If you keep vendor/ locally to package, ignore its heavy parts:
+vendor/vlc/
+vendor/ffmpeg/
+# keep icons and small assets:
+!assets/

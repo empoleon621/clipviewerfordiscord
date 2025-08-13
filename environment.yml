@@ -1,0 +1,8 @@
+name: tkvid
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - python-vlc
+      - pyinstaller
+      - tkvideoplayer    # optional, safe to remove if you’re done with it
